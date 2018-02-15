@@ -1,7 +1,7 @@
 {
-  "name": "sgf",
+  "name": "exercisingfoodies",
   "version": "1.0.0",
-  "description": "Space Games Federation Theme",
+  "description": "Exercising Foodies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,9 +18,9 @@
   "author": "Ben Erwin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/powersimple/spacegamesfederation/issues"
+    "url": "https://github.com/powersimple/exercisingfoodies/issues"
   },
-  "homepage": "https://github.com/powersimple/spacegamesfederation#readme",
+  "homepage": "https://github.com/powersimple/exercisingfoodies#readme",
   "devDependencies": {
     "browser-sync": "^2.23.5",
     "del": "^3.0.0",

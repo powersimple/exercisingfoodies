@@ -1,0 +1,16 @@
+[20-Mar-2017 12:21:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1
+[24-Mar-2017 03:54:38 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1
+[31-Mar-2017 03:42:57 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1
+[29-Sep-2017 19:17:18 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1
+[29-Sep-2017 19:17:18 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1
+[03-Oct-2017 05:11:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/archive.php on line 1
+[03-Oct-2017 05:11:33 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/archive.php on line 1
+[06-Oct-2017 18:38:43 UTC] PHP Fatal error:  Call to undefined function language_attributes() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/header.php on line 2
+[17-Oct-2017 07:18:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/index.php on line 1
+[17-Oct-2017 07:18:20 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/index.php on line 1
+[08-Jan-2018 17:26:59 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1
+[08-Jan-2018 17:26:59 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1
+[08-Jan-2018 22:03:50 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1
+[08-Jan-2018 22:03:50 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1
+[09-Jan-2018 14:56:46 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1
+[09-Jan-2018 14:56:47 UTC] PHP Fatal error:  Call to undefined function get_header() in /home/powersim/domains/exercisingfoodies.com/wp-content/themes/hueman/404.php on line 1

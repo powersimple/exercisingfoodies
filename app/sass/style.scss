@@ -1,0 +1,306 @@
+
+/*
+Theme Name: Helen Erwin
+
+*/
+/** * Table of Contents:* * 1.0 - Reset * 2.0 - Repeatable Patterns * 3.0 - Basic Structure * 4.0 - Header * 5.0 - Navigation * 6.0 - Content *   6.1 - Post Thumbnail *   6.2 - Entry Header *   6.3 - Entry Meta *   6.4 - Entry Content *   6.5 - Galleries *   6.6 - Post Formats *   6.7 - Post/Image/Paging Navigation *   6.8 - Attachments *   6.9 - Archives *   6.10 - Contributor Page *   6.11 - 404 Page *   6.12 - Full-width *   6.13 - Singular *   6.14 - Comments * 7.0 - Sidebar *   7.1 - Widgets *   7.2 - Content Sidebar Widgets * 8.0 - Footer * 9.0 - Featured Content * 10.0 - Multisite * 11.0 - Media Queries * 12.0 - Print * ----------------------------------------------------------------------------- */
+/** * 1.0 Reset * * Resetting and rebuilding styles have been helped along thanks to the fine * work of Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html * along with Nicolas Gallagher and Jonathan Neal * http://necolas.github.com/normalize.css/ and Blueprint * http://www.blueprintcss.org/ * * ----------------------------------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,900);
+
+@import "partials/template";//original theme
+
+body{
+  background:#5c90c2;
+}
+a{
+  color:#5c90c2;
+}
+a:hover{
+  color:#926f3f;
+}
+img{
+  width:100%;
+}
+.site, .site-header{
+  max-width:100%;
+}
+#masthead{
+  position:fixed;
+  padding:.5em 0px;
+}
+
+.header-main{
+  width:40%;
+  float:left;
+}
+
+
+h1{
+  font-size:3vw;
+  display:block;
+  width:100%;
+  clear:both; 
+  margin:0px;
+  
+}
+h1 a{
+  font-family:'Roboto';
+  color:#926f3f;
+  font-weight:300;
+}
+h1 a:hover{
+
+  color:#5c90c2;
+  
+}
+a:hover{
+  text-decoration:underline;
+}
+h2{
+  
+  font-family:'Roboto';
+  padding-left:4%;
+  font-weight:900;
+  color:#926f3f;
+  margin-bottom:1em;
+  
+}
+#site-description{
+  clear:both;
+  display:block;
+  font-size:2vw;
+  line-height:120%;
+  font-family:'Roboto';
+  color:#000;
+  font-weight:300;
+}
+
+#navigation{
+  width:50%;
+  float:right;  
+}
+#navigation ul{
+  margin:0px;
+}
+#external-nav ul{ 
+  margin:10px;
+}
+#external-nav ul li{
+  list-style:none;
+  display:inline-block;
+  width: 10%;
+  margin-right:1.5%;
+}
+#internal-nav ul li{
+  list-style:none;
+  display:inline-block;
+  
+  margin-right:1.5%;
+    
+}
+
+#external-nav ul li img{
+  width:100%;
+  height:auto;
+}
+
+#main{
+  padding-top:10%;  
+}
+#hero{
+  position:relative;
+  height:0px;
+  margin:0px auto 2em;
+  padding-bottom:75%;
+  position:relative;  
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+.home-blurb{
+  color:#fff;
+  top:25px;
+  right:0;
+  margin-right:25px;
+  position:absolute;
+  font-size:1.5em;
+  text-align:right;
+  line-height:120%;
+}
+.home-blurb h3{
+  font-size:125%;
+}
+.home-blurb a{
+  color:#fff; 
+}
+.menu-toggle{
+  background-color:#5c90c2;
+}
+@media(max-width:767px){/*HEAD*/
+  .header-main{
+    width:auto;
+    float:none;
+    clear:both;
+  }
+  h1.site-title{
+    
+  }
+  #navigation{
+    width:90%;
+    margin:0px auto;
+    float:none; 
+    clear:both;
+  }
+  #external-nav ul li{
+    list-style:none;
+    display:inline-block;
+    width: 10%;
+    margin-right:1%;
+  }
+  #hero{
+    
+  }
+  h1{
+    font-size:6vw;
+  }
+  #site-description{
+    font-size:4vw;
+  }
+  
+}
+#page{
+  background:#fff;
+}
+.feature{
+  width:30%;
+  padding:0px 4%;
+  display:inline-block; 
+  vertical-align:top;
+}
+.content{
+  width:58%;
+  max-width:600px;
+  display:inline-block; 
+  padding-right:2%;
+  
+}
+ul.no-bullets li{
+  list-style:none;
+}
+
+
+@media(max-width:767px){/*body*/
+  h1{
+    font-size:8vw;
+    text-align:center;
+  }
+  #site-description{
+    
+    text-align:center;
+  }
+  #hero{
+    margin-bottom: 50%;
+  }
+  h2{
+    width:90%;
+    display:block;
+    margin:0px auto;
+    margin-bottom:1em;
+    padding:0px;
+  }
+  .feature{
+    width:90%;
+    display:block;
+    margin:0px auto;
+    padding:0px;
+    margin-bottom:2em;
+  }
+  
+  .content{
+    width:90%;
+    display:block;
+    margin:0px auto;
+    padding:0px;
+    margin-bottom:2em;
+  }
+  .home-blurb{
+    right:auto;
+    left:10px;
+    top:auto;
+    bottom: -61%;
+    position: absolute;
+    text-align:left;
+    font-size:1em;
+    color: #926f3f;
+      padding: 0px 10%;
+    font-weight: bold;
+    
+  }
+  .home-blurb h3{
+    margin:.5em 0px
+  }
+
+}
+.promo-quotes {
+  margin-top:1em;
+  display: block;
+  float: right;
+  
+  
+  font-size:1vw;
+  line-height: 150%;
+
+}
+
+
+@media(min-width:768px){
+  .promo-quotes{
+    width:35%;
+    min-width:500px;
+      text-shadow: 1px 1px #000;
+
+  }
+}
+@media(min-width:540px) and (max-width:767px){
+  .promo-quotes{
+    font-size: 1.75vw;
+  }
+}
+@media(max-width:540px){
+  .promo-quotes{
+    font-size: 2.25vw;
+  }
+  #hero{
+    margin-bottom: 68% !important;
+  }
+  .home-blurb{
+    bottom: -85% !important;
+    padding: 0px 5% !important;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
